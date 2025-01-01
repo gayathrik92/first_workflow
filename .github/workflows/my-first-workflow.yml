@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 18
-
+    - name: Install dependencies
+      run: |
+        cd .github/actions/my-custom-action
+        npm install
     - name: customer action
       uses: gayathrik92/buisnessgreetings@main
