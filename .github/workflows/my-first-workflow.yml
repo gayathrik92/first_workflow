@@ -19,7 +19,7 @@ jobs:
         node-version: 20
     - name: Install dependencies
       run: |
-        cd .github/actions
+        cd .github/
         npm install
     - name: customer action
       uses: gayathrik92/buisnessgreetings@main
