@@ -22,4 +22,4 @@ jobs:
         cd .github/
         npm install
     - name: customer action
-      uses: gayathrik92/buisnessgreetings@main
+      uses: gayathrik92/buisnessgreetings/.github/actions/businessgreetings@main
